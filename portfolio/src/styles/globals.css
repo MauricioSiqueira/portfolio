@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+html {
+  background-color: #F7F5F2;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Josefin Sans", sans-serif;
+}
