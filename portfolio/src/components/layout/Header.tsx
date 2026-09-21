@@ -8,7 +8,7 @@ export function Header(){
                     <img src={logo} alt="Logo" className="h-10 w-auto" />
                 </a>
 
-                <ul className="flex items-center gap-8">                        
+                <ul className="flex items-center gap-8 text-xl">                        
                     <li>
                         <a href="#about">
                             About

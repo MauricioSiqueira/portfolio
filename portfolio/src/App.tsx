@@ -1,12 +1,14 @@
 import { Header } from "./components/layout/Header";
+import { Hero } from "./components/sections/Hero";  
+import { About } from "./components/sections/About";  
 
 function App() {
   return (
     <>
       <Header />
       <main>
-        <h1>Mauricio Siqueira</h1>
-        <p>Software Developer</p>
+        <Hero />
+        <About />
       </main>
     </>
   );  
