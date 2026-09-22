@@ -3,7 +3,7 @@ import me from "../../assets/images/me.jpeg";
 export function Hero(){
     return (
         <>
-            <section id="home" className="flex min-h-screen items-center justify-center">
+            <section id="home" className="flex items-center justify-center mt-25">
                 <div className="flex items-center gap-10">
 
                     {/*Aqui vou colocar minha foto */}

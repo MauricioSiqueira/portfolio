@@ -1,7 +1,7 @@
 export function About(){
     return (
         <>
-            <section id="about" className="min-h-screen items-center justify-center">
+            <section id="about" className="items-center justify-center mt-20">
                 <h1 className="text-4xl font-bold text-center">
                     About me
                 </h1>
