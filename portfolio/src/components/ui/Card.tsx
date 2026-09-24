@@ -14,9 +14,9 @@ imageUrl,
 onClick,
 }) => {
     return (
-        <div className="rounded-lg shadow-md overflow-hidden cursor-pointer w-auto h-auto border border-gray-50">
+        <div className="rounded-lg shadow-md overflow-hidden cursor-pointer w-full h-auto border border-gray-50">
 
-            <div className="relative w-auto h-100 m-auto overflow-hidden rounded-4sxl shadow-lg flex items-center justify-center">
+            <div className="relative w-full h-100 m-auto overflow-hidden rounded-4sxl shadow-lg flex items-center justify-center">
                 <div style={{backgroundImage: `url(${imageUrl})`}} className="absolute inset-0 bg-cover bg-center blur-xl scale-110"></div>
 
                 <div className="absolute inset-0 bg-black/30"></div>
