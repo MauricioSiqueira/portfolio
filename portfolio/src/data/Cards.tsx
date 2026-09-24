@@ -10,7 +10,7 @@ export const cards: CardData[] = [
         id:1,
         title: "Lari's letter",
         description: "Lari's Letter is a simple yet very special project for me; it was the first webpage I ever created, made for someone very special in my life—my girlfriend. The site features some photos of us, a playlist, and a letter I wrote with all my love.",
-        urlRepo: "https://github.com/MauricioSiqueira/Lari-Romantic",
+        urlRepo: "https://mauriciosiqueira.github.io/Lari-Romantic/",
         imageUrl: lariLetterImage
     },
     {
