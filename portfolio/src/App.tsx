@@ -13,7 +13,7 @@ function App() {
         <Hero />
         <About />
         <section className="items-center justify-center">
-          <div className ="grid grid-cols-2 mt-50 ml-20 mr-20 gap-10">
+          <div className="grid grid-cols-1 mx-5 mt-20 gap-10 md:grid-cols-2 md:mx-8 lg:mx-20 lg:mt-50">
             <Knowledge />
             <Contact />
           </div>

@@ -18,7 +18,7 @@ import {
 export function Projects() {
     const swiperRef = useRef<SwiperType | null>(null);
     return (
-        <section id="projects" className="min-h-screen mt-50">
+        <section id="projects" className="min-h-screen mt-20 lg:mt-50">
             <h1 className="text-center m-10 text-4xl font-bold">
                 My Projects
             </h1>
@@ -43,10 +43,10 @@ export function Projects() {
                 onSwiper={(swiper) => {
                     swiperRef.current = swiper; 
                 }}
-                className="pb-12!"
+                className="w-full min-w-0 pb-12!"
                 >
                 {cards.map((card) => (
-                    <SwiperSlide key={card.id} className="w-87.5!">
+                    <SwiperSlide key={card.id} className="w-[min(350px,calc(100%-40px))]!">
                     <Card
                         title={card.title}
                         description={card.description}
@@ -60,11 +60,11 @@ export function Projects() {
                 
             </div>
             <div className="flex items-center justify-center gap-6 mt-8">
-                <button onClick={() => swiperRef.current?.slidePrev()} className="w-11 h-11 flex items-center justify-center rounded-full bg-white shadow-md cursor-pointer text-xl hover:scale-110 transition">
+                <button aria-label="Previous project" onClick={() => swiperRef.current?.slidePrev()} className="w-11 h-11 flex items-center justify-center rounded-full bg-white shadow-md cursor-pointer text-xl hover:scale-110 transition">
                     ←
                 </button>
 
-                <button onClick={() => swiperRef.current?.slideNext()} className="w-11 h-11 flex items-center justify-center rounded-full bg-white shadow-md cursor-pointer text-xl hover:scale-110 transition">
+                <button aria-label="Next project" onClick={() => swiperRef.current?.slideNext()} className="w-11 h-11 flex items-center justify-center rounded-full bg-white shadow-md cursor-pointer text-xl hover:scale-110 transition">
                     →
                 </button>
             </div>

@@ -34,7 +34,7 @@ onClick,
             </div>
 
             <div className="bg-[#FAFAFA] text-center flex justify-center pb-2 pt-2 border border-gray-200">
-                <button className="bg-black border rounded-2xl w-50 h-5 text-white text-xs" onClick={onClick}>
+                <button className="bg-black border rounded-2xl w-50 max-w-full h-11 md:h-5 text-white text-xs" onClick={onClick}>
                     Open in GitHub
                 </button>
             </div>

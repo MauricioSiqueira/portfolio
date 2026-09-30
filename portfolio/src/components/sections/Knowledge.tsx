@@ -1,7 +1,7 @@
 export function Knowledge(){
     return (
         <>
-            <section id="knowledge" className="items-center justify-center">
+            <section id="knowledge" className="min-w-0 items-center justify-center">
                 <h1 className="text-4xl font-bold text-center">
                     Knowledge
                 </h1>
