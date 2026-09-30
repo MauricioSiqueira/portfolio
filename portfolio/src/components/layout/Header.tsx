@@ -3,7 +3,7 @@ import logo from "../../assets/images/Logo.jpeg";
 export function Header(){
     return (
         <header>
-            <nav className="mx-auto flex max-w-6xl flex-col gap-4 items-center justify-between px-5 py-4 sm:flex-row sm:gap-0 sm:px-6">
+            <nav id="header" className="mx-auto flex max-w-6xl flex-col gap-4 items-center justify-between px-5 py-4 sm:flex-row sm:gap-0 sm:px-6">
                 <a href="#home">
                     <img src={logo} alt="Logo" className="h-10 w-auto" />
                 </a>
